@@ -1,0 +1,32 @@
+.cardSection {
+    width: min-content;
+}
+
+.titleSection {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: fit-content;
+    margin: 24px;
+}
+
+@media (max-width: 1024px) {
+    .cardContent {
+        display: grid;
+        grid-template-columns: 1 1fr;
+        gap: 0px;
+        width: fit-content;
+        margin: 0px;
+        justify-items: center;
+        margin: 16px;
+
+    }
+    .cardSection {
+        width: 100%;
+    }
+}

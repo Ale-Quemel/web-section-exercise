@@ -1,13 +1,12 @@
-import React from 'react'
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 
-import './styleNavBar.css'
+import './styleNavBar.css';
 
 export const NavBar = () => {
   return (
-    <nav class='navBar'>
+    <nav className='navBar'>
         <DescriptionOutlinedIcon fontSize='large' id='icon-bill'/>
-        <h1 class='title'>Reports</h1>
+        <h1 className='title'>Reports</h1>
     </nav>
   )
 }
