@@ -15,6 +15,5 @@ export const CattleSec = ( { title } ) => {
                 <Card title="Yardsheet" description="Observe all the movements of your yardsheet"/>
             </div>
     </section>
-
   )
 }

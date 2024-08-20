@@ -12,9 +12,7 @@ export const CommercialSec = ( { title } ) => {
                 <Card title="Cattle Purchases" description="08/19/2024 lorem ipsum dolor sit amet consectetur, adipisicing elit."/>
                 <Card title="Cattle Sales" description="08/19/2024 lorem ipsum dolor sit amet consectetur, adipisicing elit."/>
                 <Card title="Supply movements" description="08/19/2024 lorem ipsum dolor sit amet consectetur, adipisicing elit."/>
-                
             </div>
     </section>
-
   )
 }

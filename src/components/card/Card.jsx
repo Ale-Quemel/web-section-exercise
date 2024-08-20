@@ -1,12 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { Button } from '../button/Button'
 
 import './styleCard.css'
-import { Button } from '../button/Button'
 
 export const Card = ({ title, description }) => {
   
-
   return (
     <div id='card'>
         <Button/>

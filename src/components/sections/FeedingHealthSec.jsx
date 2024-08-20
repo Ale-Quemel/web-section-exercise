@@ -14,8 +14,6 @@ export const FeedingHealthSec = ( { title } ) => {
                 <Card title="Health Treatments" description="Records of every health treatment event by sublot or animal"/>
                 <Card title="Feedstock" description="Inventory and movement history for feeding supplies"/>
             </div>
-
     </section>
-
   )
 }

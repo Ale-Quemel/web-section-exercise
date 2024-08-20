@@ -1,7 +1,8 @@
 import React from 'react'
-import { useState } from 'react';
-import './styleButton.css'
 import ArrowOutwardRoundedIcon from '@mui/icons-material/ArrowOutwardRounded';
+import { useState } from 'react';
+
+import './styleButton.css'
 
 export const Button = () => {
 
@@ -11,7 +12,6 @@ export const Button = () => {
     
     setCounter( counter + 1);
   }
-
     return (
         <div class='container'>
             <p class='indicator'> Número de intentos: { counter } </p>

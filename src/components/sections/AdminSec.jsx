@@ -15,6 +15,5 @@ export const AdminSec = ( { title } ) => {
                 <Card title="Statements" description="08/19/2024 lorem ipsum dolor sit amet consectetur, adipisicing elit."/>
             </div>
     </section>
-
   )
 }
