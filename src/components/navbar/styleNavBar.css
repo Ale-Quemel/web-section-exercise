@@ -3,6 +3,8 @@
     background-color: #1A5E41;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 12px;
     width: 100%;
 }
 
@@ -12,4 +14,10 @@
     font-weight: 600;
     color: #ffffff;
     margin: 0px;
+}
+
+#icon-bill {
+    border-radius: 100px;
+    color: #ffffff;
+    align-items: center;
 }

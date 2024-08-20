@@ -16,7 +16,7 @@ export const Button = () => {
         <div class='container'>
             <p class='indicator'> Número de intentos: { counter } </p>
             <button class='btn' on onClick={ handleAdd }>
-                <ArrowOutwardRoundedIcon id='icon'/>
+                <ArrowOutwardRoundedIcon id='icon-arrow'/>
             </button>
         </div>
   )
